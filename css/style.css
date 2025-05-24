@@ -1,0 +1,101 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+body{
+    background-color: var(--Stone150);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container{
+    width: 300px;
+    margin: auto;
+    background-color: var(--White);
+    padding: 0.8rem;
+    color: var(--Stone600);
+    line-height: 1.8em;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    height: auto;
+}
+#main-container p{
+    font-size: 16px;
+    font-family: Outfit;
+}
+
+#omelette img{
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+
+}
+
+#omelette h1{
+    font-family: Young serif;
+}
+
+#preparation-time{
+    background-color: var(--Rose50);
+    font-family: Outfit;
+    height: fit-content;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    box-sizing: border-box;
+}
+
+#preparation-time h4{
+    margin: 20px;
+    margin-top: auto; 
+    color: var(--Rose800);  
+}
+
+#preparation-time p{
+    font-size: small;
+}
+
+#action-phase{
+    font-family: Outfit;
+}
+
+#action-phase h3{
+    font-family: Young serif;
+}
+
+.nutrition-table{
+    border-collapse: collapse;
+    margin: auto 20px;
+    width: 80%;
+}
+
+.nutrition-table td{
+    padding: 15px;
+    border-bottom: 1px solid var(--Stone150);
+}
+
+
+
+@media(min-width:765px){
+    #main-container{
+        width: 600px;
+    }
+
+    #omelette img{
+        width: 600px;
+    }
+
+}
+

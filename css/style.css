@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: var(--Stone150);
+    background-color: var(--Stone100);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ body{
     width: 300px;
     margin: auto;
     background-color: var(--White);
-    padding: 0.8rem;
+    padding: 1rem;
     color: var(--Stone600);
     line-height: 1.8em;
     border-bottom-left-radius: 0.8rem;

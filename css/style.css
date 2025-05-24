@@ -91,6 +91,8 @@ body{
 @media(min-width:765px){
     #main-container{
         width: 600px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     #omelette img{
